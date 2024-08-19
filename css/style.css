@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    background-color: #cfcdcd;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+.countdown-container {
+    /* text-align: center; */
+}
+
+.countdown {
+    font-size: 2rem;
+    background: lavender;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.countdown span {
+    display: inline-block;
+    min-width: 10px;
+}
